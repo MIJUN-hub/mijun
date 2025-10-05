@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions at Amusement Park</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- W3.CSS Framework -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    /* Responsive iframe container */
+    .responsive-iframe-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 100%; /* Aspect ratio 1:1 */
+    }
+    .responsive-iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Site Header -->
+  <header class="w3-container w3-center w3-blue w3-padding-32">
+    <h1 class="w3-xxxlarge">Functions at Amusement Park</h1>
+  </header>
+
+  <!-- Subheader -->
+  <div class="w3-container w3-center w3-margin-top">
+    <h2 class="w3-xlarge w3-text-dark-grey">Exponential Function</h2>
+  </div>
+
+  <!-- Responsive Graph -->
+  <div class="w3-content w3-padding-large" style="max-width:800px">
+    <div class="responsive-iframe-container w3-card w3-white w3-round-large">
+      <iframe src="https://www.desmos.com/calculator/xuv9i4dq9k?embed" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <!-- Transformations Paragraph -->
+  <div class="w3-content w3-padding-large" style="max-width:800px">
+    <h3 class="w3-text-blue">Transformations</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Phasellus non dui vel ipsum vehicula dictum. Integer a orci felis. 
+    Aliquam erat volutpat. Proin blandit tincidunt dolor, a congue urna laoreet sed.</p >
+  </div>
+
+  <!-- Domain and Range Paragraph -->
+  <div class="w3-content w3-padding-large" style="max-width:800px">
+    <h3 class="w3-text-blue">Domain and Range</h3>
+    <p>Curabitur in eros vitae justo finibus placerat. 
+    Nullam vel velit nec metus viverra finibus. 
+    Sed tempor mi non magna hendrerit, nec sodales magna pulvinar.</p >
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-padding-16 w3-light-grey">
+    <p>© 2025 Functions at Amusement Park</p >
+  </footer>
+
+</body>
+</html>
